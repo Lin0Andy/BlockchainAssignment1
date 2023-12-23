@@ -27,10 +27,6 @@ public class TransactionOutput {
         return amount;
     }
 
-    public static TransactionOutput add(PublicKey recipient, double amount, String parentTransactionId) {
-        return new TransactionOutput(recipient, amount, parentTransactionId);
-    }
-
     public boolean isMine(PublicKey publicKey) {
         return publicKey.equals(recipient);
     }
