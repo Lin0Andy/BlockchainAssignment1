@@ -67,8 +67,8 @@ public class Wallet {
         }
 
         return newTransaction;
-
     }
+
 
 
     private void generateKeyPair() {

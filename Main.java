@@ -79,9 +79,12 @@ public class Main {
             Block newBlock = new Block(blockchain.getLatestBlock().getIndex() + 1, blockchain.getLatestBlock().calculateHash(), transactions);
             blockchain.addBlock(newBlock);
 
+            recipientWallet.addUTXO(new TransactionOutput(recipientWallet.getPublicKey(), amount, newTransaction.getTransactionId()));
+
             System.out.println("Money transfer successful!");
         } else {
             System.out.println("Money transfer failed. Check your balance.");
         }
     }
+
 }
