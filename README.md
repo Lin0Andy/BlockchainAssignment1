@@ -29,7 +29,7 @@ This thing demonstrates how blockchain works through the prism of simplification
 <h3>CryptoUtil and DigitalSignature Classes:</h3>
 - Provide cryptographic utility functions such as hashing, key pair generation, and digital signature operations.
 
-<br>
+<br><br>
 - Users are represented by wallets, each having a unique public-private key pair.
 - Transactions are created by users and added to blocks in the blockchain.
 - Blocks are mined using a proof-of-work algorithm, ensuring the security of the blockchain.
