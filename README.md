@@ -3,7 +3,7 @@ This thing demonstrates how blockchain works through the prism of simplification
 <h1>Project Overview:</h3>
 <p>This Java-based project aims to implement a simplified version of a blockchain—a decentralized and secure distributed ledger. The blockchain is a linked list of blocks, where each block contains a list of transactions. The implementation includes essential components such as transaction management, cryptographic hashing, digital signatures, and a basic proof-of-work mining algorithm.</p>
 
-
+<br>
 <h3>Blockchain Class:</h3>
 - Represents the entire blockchain as a linked list of blocks.
 - Provides methods for adding blocks, creating the genesis block, and verifying the integrity of the blockchain.
@@ -29,8 +29,7 @@ This thing demonstrates how blockchain works through the prism of simplification
 <h3>CryptoUtil and DigitalSignature Classes:</h3>
 - Provide cryptographic utility functions such as hashing, key pair generation, and digital signature operations.
 
-<br><br>
-
+<br>
 - Users are represented by wallets, each having a unique public-private key pair.
 - Transactions are created by users and added to blocks in the blockchain.
 - Blocks are mined using a proof-of-work algorithm, ensuring the security of the blockchain.
